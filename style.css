@@ -30,6 +30,10 @@ nav {
 .toggle:hover {
   background-color: #ddd;
   border-radius: 50%;
+  cursor: pointer;
+}
+.toggle {
+  display: none;
 }
 .head div {
   font-size: 25px;
@@ -141,6 +145,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .toggle {
+    display: block;
   }
 
   /* MOBILE SIDEBAR */
